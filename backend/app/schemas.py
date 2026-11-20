@@ -137,6 +137,7 @@ class AlertEntry(BaseModel):
     field_6: str | None = None  # 静默时段
     field_7: str | None = None  # 规则状态
 
+
 class UserGroupEntry(BaseModel):
     """用户组明细结构。"""
 
